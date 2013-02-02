@@ -1,0 +1,33 @@
+".container": {
+	backgroundColor:"white"
+},
+
+//ラベル表示
+"#label1": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	top: 50,
+//	left: 0,
+	color: "#000",
+	font:{
+	fontFamily:'Arial',
+	fontSize:28,
+	fontStyle:'italic',
+	fontWeight:'bold'
+	}
+},
+"#button1": {
+//	width: Ti.UI.SIZE,
+	//全体表示
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	backgroundColor: "#FFF",
+	//image:'search.png'
+}, 
+"#switch1": {
+	top: '70%',
+	value:false
+},
+"#optionDialog1": {
+	top: '30%',
+} 

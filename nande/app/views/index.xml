@@ -1,0 +1,9 @@
+<Alloy>
+	<Window class="container">
+		<!-- ラベル表示 -->
+		<Label id="label1" onClick="doClickLabel1">なんでナンデ？</Label>
+		<Button id="button1" onClick="doClickButton1">Button1</Button>
+		<Switch id="switch1" onClick="doClickSwitch1">Switch1</Switch>
+		<Button id="optionDialog1" onClick="doOptionDialog1">OptionDialog1</Button>
+	</Window>
+</Alloy>
